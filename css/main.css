@@ -1,0 +1,165 @@
+body{
+    color: #333;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 1.4;
+ }
+ 
+ 
+ 
+ 
+ /* HEADER */
+ header{
+ 
+ }
+ header .inner{
+     width: 700px;
+     height: 20px;
+     margin: 0 auto;
+ background-color:white;
+ max-width: 700px;
+ position: relative;
+ }
+ 
+ header .sub-menu{
+     
+ }
+ header .sub-menu ul.menu{
+     display: flex;
+     justify-content: center;
+ }
+ header .sub-menu ul.menu li{
+ 
+ }
+ header .sub-menu ul.menu li a{
+     background-color:white;
+     font-size: 10px;
+     padding: 0.5% 0.5%;
+     display: block;
+     color: #6565;
+
+ }
+ header .menu{
+     width: 420px;
+     background-color:white;
+ }
+ header .sub-menu .ul.sub-menu{
+ 
+ }
+ header .sub-menu .ul.menu li{
+ 
+ }
+ header .sub-menu .ul.menu li a{
+     background-color:green;
+     font-size: 120px;
+     padding: 11px 16px;
+     display: block;
+ }
+ /* pictures */
+ .container {
+ 
+ }
+ .container .pictures {
+   display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+     background-color:white;
+     max-width: 700px;
+     margin: 0 auto;
+     padding: 40px 20px;
+ }
+ .container .pictures .picture {
+     width: 80px;
+     height: 95px;
+     margin: 4px;
+     border-radius: 10px;
+     box-sizing: border-box;
+     background-color: aliceblue;
+     overflow: hidden;
+ }
+ .container .pictures .picture:hover{
+     background-color: #555;
+     transition: 0.1s;
+ }
+ .container .pictures .picture .image {
+   width: 100%;
+   height: 100%;
+   background-position: center;
+   background-repeat: no-repeat;
+   box-sizing: 90px;
+ }
+ .container .pictures .picture:nth-child(1) .image {
+    width: 100%;
+   background-image: url("../images/picture_1_.png");
+   background-size: cover;
+ }
+ .container .pictures .picture:nth-child(2) .image {
+    width: 100%;
+   background-image: url("../images/공기정화식물.jpg");
+   background-size: cover;
+ }.container .pictures .picture:nth-child(3) .image {
+    width: 100%;
+   background-image: url("../images/꽃선물.jpg");
+   background-size: cover;
+ }
+ .container .pictures .picture:nth-child(4) .image {
+    width: 100%;
+   background-image: url("../images/병문안.jpg");
+   background-size: cover;
+ }
+ .container .pictures .picture:nth-child(5) .image {
+    width: 100%;
+   background-image: url("../images/승진.jpg");
+   background-size: cover;
+ }
+ .container .pictures .picture:nth-child(6) .image {
+    width: 100%;
+   background-image: url("../images/인테리어식물.jpg");
+   background-size: cover;
+ }
+ .container .pictures .picture:nth-child(7) .image {
+    width: 100%;
+   background-image: url("../images/장례식.jpg");
+   background-size: cover;
+ }
+ .container .pictures .picture:nth-child(8) .image {
+    width: 100%;
+   background-image: url("../images/결혼식.jpg");
+   background-size: cover;
+ }
+ /* notice */
+ .notice {
+
+ }
+ .noteice .notice-line {
+     position: relative;
+ }
+ .noteice .notice-line .bg-left {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background-color:#333;
+ }
+ .noteice .notice-line .bg-right {
+     position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    background-color:orange;
+ }
+ .noteice.notice-line.inner {
+     height: 200px;
+}
+.noteice .notice-line .inner .swiper-container {
+    width: calc(819px * 5 +20px);
+    width: calc(100% - 50px); */
+    height: 553px;
+    background-color: orange;
+    text-align: center;
+    font-size: 200px;
+    position: absolute;
+    top: 40px;
+}
