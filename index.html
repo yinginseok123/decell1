@@ -6,13 +6,13 @@
     <title>decell</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
-    <link rel="stylesheet" href="./css/main.css">  
+    <link rel="stylesheet" href='./src/css/main.css'> 
+    <script>src="./main.js"</script>
 <!-- swiper -->
-   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
-  <script src="'https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.mjs'"></script>
-  <script defer src="./js/main.js"></script>
+  <script type="module" defer src='./src/main.js'></script>
     </head>
 <body>
+  <div id="root"></div>
 
   <!-- HEADER -->
   <header>
@@ -131,22 +131,25 @@
     </div>
   </div>
   </div>
-
-<section class="notice">
-    <div class="noteice-line">
-        <div class="bg-left"></div>
-        <div class="bg-right"></div>
-        <div class="inner">
-        <div class="inner__left"></div>
-        <div class="inner__right"></div>
-    </div>
-
-    <div class="swiper-container">
-    </div>
-    </div>
-</section> 
+</section>
+<!-- slider-wrap -->
+<html>
+  <head>
+    <title>
+      <%= htmlwebpackplugin.Option.title %>
+    </title>
+  </head>
+<body>
+<div class="slider-wrap"id="slider-wrap">
+  <ul class="list slider" id="slider">
+    <li>
+    <img src="<%= ('./src/image/캡처11.jpg') %>">
+      </li>  
+ </div>
 </div>
 </div>    
   </div>
+</body>
+</html>
 </body>
 </html>
